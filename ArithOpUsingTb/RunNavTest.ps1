@@ -5,7 +5,7 @@ param (
                                     [int]   $BuildNo        = 0,
                                     [string]$ResultPath     = "",
                                     [string]$Prefix         = "",
-                                    [string]$HostName       = "http://localhost:8080/BC190/",
+                                    [string]$HostName       = "localhost",
                                     [switch]$UseDocker      = $false
  )
 
