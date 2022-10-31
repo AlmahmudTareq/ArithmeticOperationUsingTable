@@ -34,7 +34,7 @@ if($UseDocker -eq $true) {
     $ec = Start-B365NAVInConsoleMode @Parameters
 } else {
     $Parameters = @{
-        "HostName"      = "http://localhost:8080/"
+        "HostName"      = "localhost"
         "Instance"      = "BC190"
         "Company"       = "CRONUS Danmark"
         "ObjectType"    = "CodeUnit"
