@@ -29,7 +29,7 @@ if($UseDocker -eq $true) {
         "Company"       = $Company
         "ObjectType"    = "CodeUnit"
         "ObjectID"      = $CodeUnitNo
-        "ClientPath"    = "C:\Program Files\Microsoft Dynamics 365 Business Central\190\Service\Microsoft.Dynamics.Nav.Server.exe"
+        "ClientPath"    = "D:\BCClient\Microsoft.Dynamics.Nav.Client.exe"
     }
     $ec = Start-B365NAVInConsoleMode @Parameters
 } else {
@@ -39,7 +39,7 @@ if($UseDocker -eq $true) {
         "Company"       = "CRONUS Danmark"
         "ObjectType"    = "CodeUnit"
         "ObjectID"      = 50105
-        "ClientPath"    = "C:\Program Files\Microsoft Dynamics 365 Business Central\190\Service\Microsoft.Dynamics.Nav.Client.exe"
+        "ClientPath"    = "D:\BCClient\Microsoft.Dynamics.Nav.Client.exe"
     }
     $ec = Start-B365NAVInConsoleMode @Parameters
 }
