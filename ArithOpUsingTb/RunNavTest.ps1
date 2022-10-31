@@ -1,7 +1,7 @@
 param (
-    [Parameter(Mandatory=$true)]    [string]$Instance,
-    [Parameter(Mandatory=$true)]    [string]$Company,
-    [Parameter(Mandatory=$true)]    [int]   $CodeUnitNo,
+                                    [string]$Instance       ="190",
+                                    [string]$Company        = "CRONUS Danmark A/S",
+                                    [int]   $CodeUnitNo     = 50105,
                                     [int]   $BuildNo        = 0,
                                     [string]$ResultPath     = "",
                                     [string]$Prefix         = "",
