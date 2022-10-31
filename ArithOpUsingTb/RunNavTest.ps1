@@ -34,8 +34,8 @@ if($UseDocker -eq $true) {
     $ec = Start-B365NAVInConsoleMode @Parameters
 } else {
     $Parameters = @{
-        "HostName"      = $HostName
-        "Instance"      = $Instance
+        "HostName"      = "LAP016\SQLEXPRESS"
+        "Instance"      = "BusinessCentralDB19"
         "Company"       = $Company
         "ObjectType"    = "CodeUnit"
         "ObjectID"      = $CodeUnitNo
