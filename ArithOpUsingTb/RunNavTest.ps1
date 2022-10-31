@@ -34,11 +34,11 @@ if($UseDocker -eq $true) {
     $ec = Start-B365NAVInConsoleMode @Parameters
 } else {
     $Parameters = @{
-        "HostName"      = "LAP016\SQLEXPRESS"
-        "Instance"      = "BusinessCentralDB19"
-        "Company"       = $Company
+        "HostName"      = "localhost"
+        "Instance"      = "BC190"
+        "Company"       = "CRONUS Danmark"
         "ObjectType"    = "CodeUnit"
-        "ObjectID"      = $CodeUnitNo
+        "ObjectID"      = $50105
         "ClientPath"    = "C:\Program Files\Microsoft Dynamics 365 Business Central\190\Service\Microsoft.Dynamics.Nav.Server.exe"
     }
     $ec = Start-B365NAVInConsoleMode @Parameters
