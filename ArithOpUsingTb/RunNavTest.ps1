@@ -1,5 +1,5 @@
 param (
-                                    [string]$Instance       ="190",
+                                    [string]$Instance       ="BC190",
                                     [string]$Company        = "CRONUS Danmark",
                                     [int]   $CodeUnitNo     = 50105,
                                     [int]   $BuildNo        = 0,
