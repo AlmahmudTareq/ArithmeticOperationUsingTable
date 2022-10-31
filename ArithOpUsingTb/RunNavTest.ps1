@@ -1,6 +1,6 @@
 param (
                                     [string]$Instance       ="190",
-                                    [string]$Company        = "CRONUS Danmark A/S",
+                                    [string]$Company        = "CRONUS Danmark",
                                     [int]   $CodeUnitNo     = 50105,
                                     [int]   $BuildNo        = 0,
                                     [string]$ResultPath     = "",
